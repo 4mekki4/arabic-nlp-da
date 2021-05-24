@@ -2,7 +2,7 @@
 ## Domain Adaptation for Arabic Cross-Domain and Cross-Dialect Sentiment Analysis from Contextualized Word Embedding
 
 
-#### Code for NAACL 2021 paper [Domain Adaptation for Arabic Cross-Domain and Cross-Dialect Sentiment Analysis from Contextualized Word Embedding]
+#### Code for NAACL 2021 paper [Domain Adaptation for Arabic Cross-Domain and Cross-Dialect Sentiment Analysis from Contextualized Word Embedding](https://www.aclweb.org/anthology/2021.naacl-main.226/)
 
 ## Requirements
 Please make sure you have `pytorch >=1.8` , `transformers >= 3.0.0` , `farasa` and `pyarabic` installed.
@@ -52,7 +52,21 @@ Where you can specify your source and target datasets. You can replace `ALDA` wi
 ## Citation 
 If you use this code, please cite this paper
 ```
-
+@inproceedings{el-mekki-etal-2021-domain,
+    title = "Domain Adaptation for {A}rabic Cross-Domain and Cross-Dialect Sentiment Analysis from Contextualized Word Embedding",
+    author = "El Mekki, Abdellah  and
+      El Mahdaouy, Abdelkader  and
+      Berrada, Ismail  and
+      Khoumsi, Ahmed",
+    booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.naacl-main.226",
+    pages = "2824--2837",
+    abstract = "Finetuning deep pre-trained language models has shown state-of-the-art performances on a wide range of Natural Language Processing (NLP) applications. Nevertheless, their generalization performance drops under domain shift. In the case of Arabic language, diglossia makes building and annotating corpora for each dialect and/or domain a more challenging task. Unsupervised Domain Adaptation tackles this issue by transferring the learned knowledge from labeled source domain data to unlabeled target domain data. In this paper, we propose a new unsupervised domain adaptation method for Arabic cross-domain and cross-dialect sentiment analysis from Contextualized Word Embedding. Several experiments are performed adopting the coarse-grained and the fine-grained taxonomies of Arabic dialects. The obtained results show that our method yields very promising results and outperforms several domain adaptation methods for most of the evaluated datasets. On average, our method increases the performance by an improvement rate of 20.8{\%} over the zero-shot transfer learning from BERT.",
+}
 ```
 
 ## Acknowledgment
